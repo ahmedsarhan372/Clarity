@@ -2104,3 +2104,20 @@ body {
     padding: 1.4rem;
   }
 }
+
+#section2 .cards {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  align-items: stretch;
+  margin-inline: 0;
+}
+#section2 .cards > .head {
+  grid-column: 1 / -1;
+  width: auto;
+  padding-inline: 0;
+}
+#section2 .cards > .card {
+  width: auto !important;
+  max-width: none;
+  padding: 0.5rem;
+}
