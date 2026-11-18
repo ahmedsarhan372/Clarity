@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" role="img" aria-labelledby="title desc">
+  <title id="title">Clarity analytics dashboard</title>
+  <desc id="desc">A sample dashboard with business metrics, a growth chart, and project activity.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf5"/>
+      <stop offset="1" stop-color="#f4e7db"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fb923c" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#fb923c" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#713f2b" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="960" height="680" rx="40" fill="url(#surface)"/>
+  <circle cx="845" cy="112" r="64" fill="#ffedd5"/>
+  <circle cx="116" cy="560" r="88" fill="#ffedd5"/>
+  <g filter="url(#shadow)">
+    <rect x="78" y="76" width="804" height="520" rx="28" fill="#fff" stroke="#f1e5dc"/>
+    <path d="M78 104a28 28 0 0 1 28-28h748a28 28 0 0 1 28 28v44H78z" fill="#fff"/>
+    <circle cx="112" cy="111" r="6" fill="#fca5a5"/>
+    <circle cx="134" cy="111" r="6" fill="#fcd34d"/>
+    <circle cx="156" cy="111" r="6" fill="#86efac"/>
+    <rect x="335" y="98" width="300" height="26" rx="13" fill="#f8fafc"/>
+    <rect x="111" y="178" width="144" height="386" rx="18" fill="#fffaf6"/>
+    <rect x="133" y="200" width="96" height="30" rx="9" fill="#fff0e6"/>
+    <rect x="145" y="210" width="12" height="12" rx="3" fill="#ea580c"/>
+    <rect x="165" y="211" width="50" height="8" rx="4" fill="#7c2d12"/>
+    <g fill="#c2b8b2">
+      <circle cx="145" cy="267" r="7"/><rect x="164" y="263" width="61" height="8" rx="4"/>
+      <circle cx="145" cy="309" r="7"/><rect x="164" y="305" width="48" height="8" rx="4"/>
+      <circle cx="145" cy="351" r="7"/><rect x="164" y="347" width="56" height="8" rx="4"/>
+      <circle cx="145" cy="393" r="7"/><rect x="164" y="389" width="45" height="8" rx="4"/>
+    </g>
+    <rect x="285" y="178" width="553" height="72" rx="16" fill="#fff"/>
+    <text x="310" y="210" fill="#7c2d12" font-family="Arial,sans-serif" font-size="21" font-weight="700">Business overview</text>
+    <text x="310" y="232" fill="#8b817a" font-family="Arial,sans-serif" font-size="12">Track your growth and projects</text>
+    <rect x="741" y="198" width="72" height="30" rx="15" fill="#fff0e6"/>
+    <circle cx="758" cy="213" r="4" fill="#ea580c"/>
+    <rect x="769" y="209" width="30" height="7" rx="3.5" fill="#b45309"/>
+    <g>
+      <rect x="285" y="270" width="170" height="96" rx="16" fill="#fff" stroke="#f1e5dc"/>
+      <rect x="303" y="288" width="34" height="34" rx="11" fill="#fff0e6"/>
+      <path d="M312 311l7-9 6 5 8-11" fill="none" stroke="#ea580c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="303" y="342" fill="#8b817a" font-family="Arial,sans-serif" font-size="11">Revenue</text>
+      <text x="382" y="342" fill="#7c2d12" font-family="Arial,sans-serif" font-size="19" font-weight="700">$48.6k</text>
+      <rect x="470" y="270" width="170" height="96" rx="16" fill="#fff" stroke="#f1e5dc"/>
+      <rect x="488" y="288" width="34" height="34" rx="11" fill="#eff6ff"/>
+      <circle cx="505" cy="305" r="8" fill="none" stroke="#3b82f6" stroke-width="2.5"/>
+      <path d="M499 318c2-5 10-5 12 0" fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="488" y="342" fill="#8b817a" font-family="Arial,sans-serif" font-size="11">Active clients</text>
+      <text x="586" y="342" fill="#7c2d12" font-family="Arial,sans-serif" font-size="19" font-weight="700">1,284</text>
+      <rect x="655" y="270" width="183" height="96" rx="16" fill="#fff" stroke="#f1e5dc"/>
+      <rect x="673" y="288" width="34" height="34" rx="11" fill="#f0fdf4"/>
+      <path d="M681 308l6-6 5 4 8-10" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="673" y="342" fill="#8b817a" font-family="Arial,sans-serif" font-size="11">Conversion</text>
+      <text x="777" y="342" fill="#7c2d12" font-family="Arial,sans-serif" font-size="19" font-weight="700">8.42%</text>
+    </g>
+    <rect x="285" y="386" width="350" height="178" rx="16" fill="#fff" stroke="#f1e5dc"/>
+    <text x="305" y="414" fill="#7c2d12" font-family="Arial,sans-serif" font-size="14" font-weight="700">Performance</text>
+    <text x="305" y="435" fill="#9a8d85" font-family="Arial,sans-serif" font-size="10">Monthly growth</text>
+    <g stroke="#f1e5dc" stroke-width="1">
+      <path d="M307 463h304M307 492h304M307 521h304"/>
+    </g>
+    <path d="M310 529c30-14 42-38 69-27s37-18 65-9 39-35 66-22 43-23 69-14 30-35 57-38v104H310z" fill="url(#chartFill)"/>
+    <path d="M310 529c30-14 42-38 69-27s37-18 65-9 39-35 66-22 43-23 69-14 30-35 57-38" fill="none" stroke="url(#brand)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="636" cy="386" r="5" fill="#ea580c"/>
+    <rect x="655" y="386" width="183" height="178" rx="16" fill="#fff" stroke="#f1e5dc"/>
+    <text x="675" y="414" fill="#7c2d12" font-family="Arial,sans-serif" font-size="14" font-weight="700">Recent activity</text>
+    <g font-family="Arial,sans-serif">
+      <circle cx="688" cy="455" r="12" fill="#fff0e6"/><path d="M683 455h10M688 450v10" stroke="#ea580c" stroke-width="2"/>
+      <text x="709" y="453" fill="#6b625d" font-size="10">New project added</text><text x="709" y="468" fill="#a69b94" font-size="9">2 minutes ago</text>
+      <circle cx="688" cy="502" r="12" fill="#eff6ff"/><circle cx="688" cy="500" r="4" fill="none" stroke="#3b82f6" stroke-width="2"/><path d="M682 508c2-5 10-5 12 0" fill="none" stroke="#3b82f6" stroke-width="2"/>
+      <text x="709" y="500" fill="#6b625d" font-size="10">Client onboarded</text><text x="709" y="515" fill="#a69b94" font-size="9">Today, 10:42 AM</text>
+      <circle cx="688" cy="548" r="12" fill="#f0fdf4"/><path d="M682 548l4 4 8-9" fill="none" stroke="#16a34a" stroke-width="2"/>
+    </g>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="596" y="48" width="220" height="62" rx="18" fill="#fff"/>
+    <circle cx="626" cy="79" r="17" fill="#fff0e6"/>
+    <path d="M619 82l6-6 5 4 7-9" fill="none" stroke="#ea580c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="655" y="75" fill="#857970" font-family="Arial,sans-serif" font-size="10">Growth this quarter</text>
+    <text x="655" y="93" fill="#7c2d12" font-family="Arial,sans-serif" font-size="15" font-weight="700">+38.6%</text>
+  </g>
+</svg>
